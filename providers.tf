@@ -9,12 +9,10 @@ terraform {
       version = "0.7.0"
     }
     jira = {
-      source  = "atlassian/jira"
-      version = "~> 1.3.0"
+      source  = "fourplusone/jira"
+      version = "~> 0.1.20"
     }
   }
-
-  required_version = ">= 1.3.0"
 }
 
 provider "slack" {

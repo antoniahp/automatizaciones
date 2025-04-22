@@ -1,4 +1,3 @@
-variable "users" {}
 variable "default_password" {}
 
 locals {

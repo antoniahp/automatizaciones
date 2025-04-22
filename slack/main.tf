@@ -1,5 +1,3 @@
-variable "users" {}
-
 locals {
   users = {
     for user in var.users : user.email => {
