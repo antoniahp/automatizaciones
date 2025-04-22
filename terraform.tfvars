@@ -4,10 +4,5 @@ users = [
     name = "user"
     email = "newuser1@example.com"
   },
-  {
-    display_name = "ahp"
-    name = "antonia"
-    email = "ahp@example.com"
-  },
   #centinela
 ]
