@@ -9,5 +9,11 @@ users = [
     name = "string"
     email = "test@example.com"
   },
-  #centinela
+  
+        {
+        display_name = "hello",
+        name = "string",
+        email = "hello@test.com",
+        }
+#centinela
 ]
