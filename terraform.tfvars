@@ -15,5 +15,11 @@ users = [
         name = "string",
         email = "hello@test.com",
         }
+
+        {
+        display_name = "hello",
+        name = "string",
+        email = "tesr@test.com",
+        }
 #centinela
 ]
