@@ -33,5 +33,22 @@ users = [
         name = "string"
         email = "tesr@test.com"
         },
+
+        {
+        email = "user@example.com"
+        name = "string"
+        schedule = "2025-05-27"
+        start_date = "2025-05-27"
+        job_title = "string"
+        employee_id = "string"
+        manager = "string"
+        managers_department = "string"
+        area = "string"
+        holafly_managed_languages = "string"
+        assets = "string"
+        personal_email = "user@example.com"
+        summary = "string"
+
+        }
 #centinela
 ]
