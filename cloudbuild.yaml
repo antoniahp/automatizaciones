@@ -1,0 +1,37 @@
+steps:
+  - name: 'gcr.io/cloud-builders/gcloud'
+    id: 'Obtener credenciales de Secret Manager'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        gcloud secrets versions access latest --secret=googleworkspace-sa-key > credentials.json
+
+  - name: 'hashicorp/terraform:light'
+    id: 'Terraform Init'
+    entrypoint: sh
+    args:
+      - '-c'
+      - |
+        terraform init
+
+  - name: 'hashicorp/terraform:light'
+    id: 'Terraform Plan'
+    entrypoint: sh
+    args:
+      - '-c'
+      - |
+        terraform plan -out=tfplan
+
+  - name: 'hashicorp/terraform:light'
+    id: 'Terraform Apply'
+    entrypoint: sh
+    args:
+      - '-c'
+      - |
+        terraform apply -auto-approve tfplan
+
+timeout: 900s
+
+options:
+  logging: CLOUD_LOGGING_ONLY

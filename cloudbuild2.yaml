@@ -1,0 +1,29 @@
+steps:
+  - name: 'hashicorp/terraform:light'
+    id: Init
+    entrypoint: 'sh'
+    args:
+      - '-c'
+      - |
+        cd terraform
+        terraform init
+
+  - name: 'hashicorp/terraform:light'
+    id: Plan
+    entrypoint: 'sh'
+    args:
+      - '-c'
+      - |
+        cd terraform
+        terraform plan -var-file=terraform.tfvars
+
+  - name: 'hashicorp/terraform:light'
+    id: Apply
+    entrypoint: 'sh'
+    args:
+      - '-c'
+      - |
+        cd terraform
+        terraform apply -auto-approve -var-file=terraform.tfvars
+
+timeout: 1200s
