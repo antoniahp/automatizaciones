@@ -98,5 +98,21 @@ users = [
             area                = "string"
             assets              = ["string"]
           },
+  {
+            name                = "antonia"
+            surname             = "pu ertas"
+            phone_number        = "111111111"
+            personal_email      = "antonia@test.com"
+            company_email       = "antonia.puertas@holafly.com"
+            residence_city      = "palma"
+            residence_country   = "spain"
+            start_date          = "2025-06-18"
+            job_title           = "engineer"
+            manager             = "string"
+            type_of_contract    = "string"
+            managers_department = "it"
+            area                = "string"
+            assets              = ["string"]
+          },
 #centinela
 ]
