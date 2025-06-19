@@ -222,5 +222,5 @@ users = [
             area                = "c"
             assets              = ["pc", "pantalla", "ratón"]
           },
-# === AUTO-GENERATED USERS END ==="
+# === AUTO-GENERATED USERS BY ONBOARDING FLOW ==="
 ]
