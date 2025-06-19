@@ -190,5 +190,21 @@ users = [
             area                = "string"
             assets              = ["pc", "pantalla", "ratón"]
           },
+  {
+            name                = "laura"
+            surname             = "assets"
+            phone_number        = "111111111"
+            personal_email      = "antonia@test.com"
+            company_email       = "laura.assets@holafly.com"
+            residence_city      = "palma"
+            residence_country   = "spain"
+            start_date          = "2025-06-18"
+            job_title           = "engineer"
+            manager             = "string"
+            type_of_contract    = "string"
+            managers_department = "it"
+            area                = "string"
+            assets              = ["pc", "pantalla", "ratón"]
+          },
 # === AUTO-GENERATED USERS END ==="
 ]
