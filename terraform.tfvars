@@ -142,5 +142,21 @@ users = [
             area                = "string"
             assets              = ["string"]
           },
+  {
+            name                = "perico"
+            surname             = "do e"
+            phone_number        = "111111111"
+            personal_email      = "antonia@test.com"
+            company_email       = "perico.doe@holafly.com"
+            residence_city      = "palma"
+            residence_country   = "spain"
+            start_date          = "2025-06-18"
+            job_title           = "engineer"
+            manager             = "string"
+            type_of_contract    = "string"
+            managers_department = "it"
+            area                = "string"
+            assets              = ["string"]
+          },
 "# === AUTO-GENERATED USERS END ==="
 ]
