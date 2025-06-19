@@ -11,7 +11,7 @@ oauth_scopes = [
 ]
 
 users = [
-    # === AUTO-GENERATED USERS START ===
+    "# === AUTO-GENERATED USERS START ==="
   {
     display_name = "new_user1"
     name = "user"
@@ -148,5 +148,5 @@ users = [
             assets              = ["string"]
           },
 
-# === AUTO-GENERATED USERS END ===
+"# === AUTO-GENERATED USERS END ==="
 ]
