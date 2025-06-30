@@ -590,5 +590,21 @@ users = [
             area                = "Affiliate Success"
             assets              = []
           },
+  {
+            name                = "Test"
+            surname             = "Test"
+            phone_number        = "999999999"
+            personal_email      = "test@test.com"
+            company_email       = "test.test@holafly.com"
+            residence_city      = "Test"
+            residence_country   = "Test"
+            start_date          = "2025-07-01"
+            job_title           = "Test"
+            manager             = "712020:cee6b7e3-288d-40a7-99b4-7050a78c7464"
+            type_of_contract    = "Contractor"
+            managers_department = "General Expenses"
+            area                = "ASO"
+            assets              = ["Laptop", "Mouse"]
+          },
 # === AUTO-GENERATED USERS BY ONBOARDING FLOW ==="
 ]
