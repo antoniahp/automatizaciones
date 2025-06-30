@@ -574,5 +574,21 @@ users = [
             area                = "test"
             assets              = ["vcbc"]
           },
+  {
+            name                = "test"
+            surname             = "test"
+            phone_number        = "123456789"
+            personal_email      = "antonia@holafly.com"
+            company_email       = "test.test@holafly.com"
+            residence_city      = "mallorca"
+            residence_country   = "spain"
+            start_date          = "2025-07-01"
+            job_title           = "dev"
+            manager             = "712020:cee6b7e3-288d-40a7-99b4-7050a78c7464"
+            type_of_contract    = "Employee"
+            managers_department = "Design"
+            area                = "Affiliate Success"
+            assets              = []
+          },
 # === AUTO-GENERATED USERS BY ONBOARDING FLOW ==="
 ]
