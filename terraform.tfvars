@@ -974,5 +974,21 @@ users = [
             area                = "Paid Media"
             assets              = ["HUB connector"]
           },
+  {
+            name                = "Test"
+            surname             = "Test"
+            phone_number        = "999999999"
+            personal_email      = "test@test.com"
+            company_email       = "test.test@holafly.com"
+            residence_city      = "Test"
+            residence_country   = "Test"
+            start_date          = "2025-07-17"
+            job_title           = "Test"
+            manager             = "712020:6e215f1c-08ee-4cbb-adb0-c1ef543e08c6"
+            type_of_contract    = "Employee"
+            managers_department = "Finance"
+            area                = "Paid Media"
+            assets              = ["HUB connector"]
+          },
 # === AUTO-GENERATED USERS BY ONBOARDING FLOW ==="
 ]
