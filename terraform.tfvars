@@ -1214,5 +1214,21 @@ users = [
             area                = "string"
             assets              = ["string"]
           },
+  {
+            name                = "string"
+            surname             = "string"
+            phone_number        = "string"
+            personal_email      = "string"
+            company_email       = "string.string@holafly.com"
+            residence_city      = "string"
+            residence_country   = "string"
+            start_date          = "2025-07-07"
+            job_title           = "string"
+            manager             = "string"
+            type_of_contract    = "string"
+            managers_department = "string"
+            area                = "string"
+            assets              = ["string"]
+          },
 # === AUTO-GENERATED USERS BY ONBOARDING FLOW ==="
 ]
